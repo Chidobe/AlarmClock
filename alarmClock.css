@@ -1,0 +1,51 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #00C37A;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+    
+}
+
+header {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    border-left: 5px solid whitesmoke;
+    margin-left: 30px;
+    padding: 30px;
+}
+section {
+    background-color: whitesmoke;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px 0px #7a7a7a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    width: 100px;
+}
+
+select {
+    border: 1px solid #b7b7b7;
+    border-radius: 5px;
+    padding: 5px 15px;
+
+}
+
+button {
+    background-color: #00C37A;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 90px;
+    margin: 20px;
+    box-shadow: 5px 5px 10px 0px #b7b7b7;
+}
