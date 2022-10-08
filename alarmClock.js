@@ -1,3 +1,9 @@
+const setHour = document.querySelector('select');
+
+
+
+
+
 function setTime() {
     const date = new Date();
     const hours = date.getHours();
@@ -9,3 +15,4 @@ function setTime() {
 };
 
 const interval = setInterval(() => setTime(), 1000);
+
